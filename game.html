@@ -1,0 +1,108 @@
+html>
+    <head>
+        <title>Run</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/favicon.jpg" type="image/jpg" sizes="16x16">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/projLiberdade.css" rel="stylesheet" type="text/css"/>
+        <style>
+                body {
+                    font-family: Arial;
+                    margin: 0;
+                    background-color: #000;
+                }
+
+                /* Título para o site */
+                header {
+                 text-align:justify;
+                 padding: 50px;
+                    text-align: center;
+                    background-color:#000;
+
+                }
+
+
+                header h1,p,h2,h3,h4,h5 {
+                        font-size: 8 px;
+                        color:white;
+
+                }
+
+                /* Estilo para a barra de navegação */
+                .navbar {
+                    overflow: hidden;
+                    background-color:#5b0000;
+                    padding: 0.01px 0.10px;
+                    
+                }
+
+                /* Estilo para os links da barra de navegação */
+                .navbar a {
+                    float: left;
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 0.001px 25px;
+                    text-decoration: none;
+                    
+                }
+
+                /* Troca a cor de fundo e texto quando o mouse paira sobre o link*/
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                footer {
+                    padding: 20px;
+                    text-align: center;
+                    background-color:#5b0000;
+                        color:white;
+                }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Projeto Liberdade</h1>
+            <p>
+                Um site desenvolvido no Instituto Federal do
+                Rio de Janeiro / <i>Campus</i> Arraial do Cabo
+            </p>
+        </header>
+         <nav class="navbar">
+            <ul class="navbar">
+                <li class="navbar">
+                    <a class="navbar a" href="index.html">Início</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar a" href="jogoJava.html">LibQuiz</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar a" href="phaser.html">Slave Run</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar a" href="game.html">Manumission</a>
+                </li>
+             
+            </ul>
+        </nav>
+        <main class=""> 
+            <div class="container-fluid text-justify">
+                <h2>Alforria</h2>
+                <h4>COMO JOGAR:</h4>
+            </div>
+            
+            <div class="container text-center" id="jogo">
+                
+            </div>
+                <script src="phaser/phaser.min.js"></script>
+                <script src="phaser/game.js"></script>
+            <div class="container-fluid text-justify">
+                
+            </div>
+        </main>
+        
+    </body>
+</html>
